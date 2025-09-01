@@ -1,1 +1,3 @@
-# Laboratorio-TA-01
+# Laboratorio Tenologías Avanzadas 
+
+Jeisy Bermúdez - 160004802

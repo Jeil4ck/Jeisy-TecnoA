@@ -26,14 +26,14 @@ public class App {
             }
         }));
 
-        Persona decano = new Persona(100, "Ana", "Decana", "ana.decana@uni.edu");
+        Persona decano = new Persona(100, "Elvis", "Decano", "Decano.decano@uni.edu");
         Facultad ing = new Facultad(1, "Ingeniería", decano);
         Programa sis = new Programa(10, "Sistemas", 10.0, new Date(), ing);
 
-        Estudiante e1 = new Estudiante(1, "Camilo", "Acosta", "camilo@uni.edu", 2025001, sis, true, 4.5);
-        Estudiante e2 = new Estudiante(2, "Valentina", "Gómez", "valentina@uni.edu", 2025002, sis, true, 4.1);
+        Estudiante e1 = new Estudiante(1, "Jeisy", "Bermudez", "jlbermudez@uni.edu", 2025001, sis, true, 4.5);
+        Estudiante e2 = new Estudiante(2, "Liyen", "Rey", "LBRey@uni.edu", 2025002, sis, true, 4.1);
 
-        Profesor prof = new Profesor(3, "Carlos", "Rojas", "carlos.rojas@uni.edu", "Tiempo Completo");
+        Profesor prof = new Profesor(3, "Roger", "calderon", "RGCalderon.@uni.edu", "Tiempo Completo");
 
         Curso TecAv = new Curso(101, "Tecnologias Avanzadas", sis, true);
 

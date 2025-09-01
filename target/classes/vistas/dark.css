@@ -1,0 +1,85 @@
+/* 🎨 Tema claro y estético para la app */
+.root {
+    -fx-base: #f5f7fa;                 /* color base suave */
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #f0f2f5);
+    -fx-text-fill: #333333;            /* texto gris oscuro */
+    -fx-font-family: "Segoe UI", "Helvetica", "Arial";
+    -fx-font-size: 13px;
+}
+
+/* Etiquetas */
+.label {
+    -fx-text-fill: #333333;
+    -fx-font-weight: 500;
+}
+
+/* Campos de texto */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d1d5db;         /* gris claro */
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-text-fill: #111827;
+    -fx-prompt-text-fill: #9ca3af;     /* gris placeholder */
+    -fx-padding: 6 10;
+}
+.text-field:focused {
+    -fx-border-color: #3b82f6;         /* azul foco */
+    -fx-effect: dropshadow(gaussian, rgba(59,130,246,0.3), 8, 0.2, 0, 2);
+}
+
+/* Botones */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #3b82f6, #2563eb);
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-padding: 7 16;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #2563eb, #1d4ed8);
+}
+.button:pressed {
+    -fx-background-color: #1e40af;
+}
+
+/* Tablas */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d1d5db;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-table-cell-border-color: #e5e7eb;
+}
+
+.table-row-cell {
+    -fx-background-color: #ffffff;
+}
+.table-row-cell:odd {
+    -fx-background-color: #f9fafb; /* zebra suave */
+}
+.table-row-cell:selected {
+    -fx-background-color: #3b82f6;
+    -fx-text-fill: white;
+}
+
+/* Cabeceras de columna */
+.table-view .column-header, .table-view .column-header .label {
+    -fx-background-color: #f3f4f6;
+    -fx-text-fill: #374151;
+    -fx-font-weight: bold;
+    -fx-border-color: #e5e7eb;
+}
+
+/* Scrollbar más limpio */
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+.scroll-bar .thumb {
+    -fx-background-color: #d1d5db;
+    -fx-background-radius: 5;
+}
+.scroll-bar .thumb:hover {
+    -fx-background-color: #9ca3af;
+}

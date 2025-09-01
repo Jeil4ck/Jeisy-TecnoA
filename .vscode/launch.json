@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "JavaFX: MainApp",
+      "request": "launch",
+      "mainClass": "edu.universidad.ui.MainApp",
+      "projectName": "uni-console-h2",
+      "cwd": "${workspaceFolder}",
+      "vmArgs": "--add-modules=javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "Console: App",
+      "request": "launch",
+      "mainClass": "edu.universidad.App",
+      "projectName": "uni-console-h2",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
